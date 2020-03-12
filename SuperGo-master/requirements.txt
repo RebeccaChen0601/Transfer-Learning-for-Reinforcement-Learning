@@ -1,0 +1,4 @@
+click
+six
+numpy
+pachi_py
