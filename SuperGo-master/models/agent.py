@@ -53,5 +53,13 @@ class Player:
             checkpoint = torch.load(os.path.join(path, models[i]))
             model = getattr(self, names[i])
             model.load_state_dict(checkpoint['model'])
+            #print(model)
+            ct = 0
+            for child in model.children():
+                ct += 1
+                if ct == 3:
+                    for param in child.parameters():
+                        param.requires_grad = False
+                        #print(param)
             return checkpoint
 
