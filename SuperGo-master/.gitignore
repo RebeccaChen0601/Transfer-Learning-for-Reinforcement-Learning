@@ -3,7 +3,7 @@ test*
 data/*
 Sabaki/
 *.pyc
-saved_models/
+
 *.py.lprof
 pytorch/
 .vscode/
