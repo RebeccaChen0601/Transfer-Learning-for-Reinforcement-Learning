@@ -10,7 +10,7 @@ DEVICE = torch.device("cuda") if CUDA else torch.device("cpu")
 ## Number of self-play parallel games
 PARALLEL_SELF_PLAY = 2
 ## Number of evaluation parallel games 
-PARALLEL_EVAL = 2
+PARALLEL_EVAL = 4
 ## MCTS parallel
 MCTS_PARALLEL = 4
 
@@ -26,7 +26,8 @@ MAX_REPLACEMENT = 0.4
 ## Number of last states to keep
 HISTORY = 7
 ## Learning rate
-LR = 0.01
+LR = 0.02
+
 ## Number of MCTS simulation
 MCTS_SIM = 256
 ## Exploration constant
@@ -53,7 +54,7 @@ TEMPERATURE_MOVE = 5
 ##### TRAINING
 
 ## Number of moves to consider when creating the batch
-MOVES = 2000
+MOVES = 3000
 ## Number of mini-batch before evaluation during training
 BATCH_SIZE = 64
 ## Number of channels of the output feature maps
@@ -65,11 +66,11 @@ OUTPLANES = (BOARD_SIZE ** 2) + 1
 ## Number of residual blocks
 BLOCKS = 15
 ## Number of training step before evaluating
-TRAIN_STEPS = 6 * BATCH_SIZE
+TRAIN_STEPS = 8 * BATCH_SIZE
 ## Optimizer
 ADAM = True
 ## Learning rate annealing factor
-LR_DECAY = 0.1
+LR_DECAY = 0.01
 ## Learning rate annnealing interval
 LR_DECAY_ITE = 100 * TRAIN_STEPS
 ## Print the loss
