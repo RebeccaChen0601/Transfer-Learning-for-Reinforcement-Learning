@@ -93,7 +93,7 @@ def sample_rotation(state, num=8):
     boards = (HISTORY + 1) * 2 ## Number of planes to rotate
 
     for idx in range(num):
-        new_state = np.zeros((boards + 1, GOBAN_SIZE, GOBAN_SIZE,))
+        new_state = np.zeros((boards + 1, BOARD_SIZE, BOARD_SIZE,))
         new_state[:boards] = state[:boards]
 
         ## Apply the transformations in the tuple defining how to get

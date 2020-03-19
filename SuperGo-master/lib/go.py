@@ -3,7 +3,7 @@ from copy import deepcopy
 import numpy as np
 import sys
 import six
-from const import HISTORY, GOBAN_SIZE
+from const import HISTORY, BOARD_SIZE
 
 
 def _pass_action(board_size):

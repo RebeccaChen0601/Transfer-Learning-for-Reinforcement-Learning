@@ -165,7 +165,8 @@ def train(current_time, loaded_version):
         total_ite = checkpoint['total_ite']
         lr = checkpoint['lr']
         version = checkpoint['version']
-        last_id = collection.find().count() - (MOVES // MOVE_LIMIT) * 2 
+        #last_id = collection.find().count() - (MOVES // MOVE_LIMIT) * 2
+        last_id = collection.find().count() - 1
     else:
         player = Player()
         optimizer = create_optimizer(player, lr)

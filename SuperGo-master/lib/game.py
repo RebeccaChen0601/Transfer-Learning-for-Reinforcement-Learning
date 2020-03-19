@@ -9,7 +9,7 @@ from .utils import _prepare_state
 class Game:
     """ A single process that is used to play a game between 2 agents """
 
-    def __init__(self, player, id, color="black", mcts_flag=MCTS_FLAG, goban_size=GOBAN_SIZE, opponent=False):
+    def __init__(self, player, id, color="black", mcts_flag=MCTS_FLAG, goban_size=BOARD_SIZE, opponent=False):
         self.goban_size = goban_size
         self.id = id + 1
         self.human_pass = False
