@@ -10,7 +10,7 @@ DEVICE = torch.device("cuda") if CUDA else torch.device("cpu")
 ## Number of self-play parallel games
 PARALLEL_SELF_PLAY = 2
 ## Number of evaluation parallel games 
-PARALLEL_EVAL = 4
+PARALLEL_EVAL = 3
 ## MCTS parallel
 MCTS_PARALLEL = 4
 
@@ -18,7 +18,7 @@ MCTS_PARALLEL = 4
 ##### GLOBAL
 
 ## Size of the Go board
-BOARD_SIZE = 13
+BOARD_SIZE = 9
 ## Number of move to end a game
 MOVE_LIMIT = BOARD_SIZE ** 2 * 2.5
 ## Maximum ratio that can be replaced in the rotation buffer
@@ -29,7 +29,7 @@ HISTORY = 7
 LR = 0.02
 
 ## Number of MCTS simulation
-MCTS_SIM = 256
+MCTS_SIM = 100
 ## Exploration constant
 C_PUCT = 0.2
 ## L2 Regularization
@@ -66,11 +66,11 @@ OUTPLANES = (BOARD_SIZE ** 2) + 1
 ## Number of residual blocks
 BLOCKS = 15
 ## Number of training step before evaluating
-TRAIN_STEPS = 8 * BATCH_SIZE
+TRAIN_STEPS = 15 * BATCH_SIZE
 ## Optimizer
 ADAM = True
 ## Learning rate annealing factor
-LR_DECAY = 0.01
+LR_DECAY = 0.02
 ## Learning rate annnealing interval
 LR_DECAY_ITE = 100 * TRAIN_STEPS
 ## Print the loss

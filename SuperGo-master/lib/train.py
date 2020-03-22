@@ -165,8 +165,8 @@ def train(current_time, loaded_version):
         total_ite = checkpoint['total_ite']
         lr = checkpoint['lr']
         version = checkpoint['version']
-        #last_id = collection.find().count() - (MOVES // MOVE_LIMIT) * 2
-        last_id = collection.find().count() - 1
+        last_id = collection.find().count() - (MOVES // MOVE_LIMIT) * 2
+        #last_id = collection.find().count() - 1
     else:
         player = Player()
         optimizer = create_optimizer(player, lr)
@@ -192,7 +192,7 @@ def train(current_time, loaded_version):
     ## Wait before the circular before is full
     while len(dataset) < MOVES:
         last_id = fetch_new_games(collection, dataset, last_id, loaded_version=loaded_version)
-        time.sleep(5)
+        time.sleep(30)
 
     print("[TRAIN] Circular buffer full !")
     print("[TRAIN] Starting to train !")
@@ -211,14 +211,16 @@ def train(current_time, loaded_version):
                 last_id = fetch_new_games(collection, dataset, last_id)
 
                 ## Wait in case an evaluation is still going on
-                if pool:
-                    print("[EVALUATION] Waiting for eval to end before re-eval")
-                    pool.close()
-                    pool.join()
+                # if pool:
+                #     print("[EVALUATION] Waiting for eval to end before re-eval")
+                #     pool.close()
+                #     pool.join()
                 pool = MyPool(1)
                 try:
                     pool.apply_async(evaluate, args=(pending_player, best_player), \
                             callback=new_agent)
+                    pool.close()
+                    pool.join()
                 except Exception as e:
                     client.close()
                     pool.terminate()

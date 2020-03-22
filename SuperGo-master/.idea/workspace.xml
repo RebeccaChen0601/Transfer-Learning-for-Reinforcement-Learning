@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dea03d60-09e9-4159-ae04-b00a7f3a8d02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/SelfPlay result 6th gen vs 1st gen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comparasion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sabaki-v0.50.1-linux-x64.AppImage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/go.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/go.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/1584177784/Config" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Yv5ySmNKaPA6tzc32iu94ou0N4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,10 +39,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Results" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Results" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.purge">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SuperGo-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,8 +71,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="purge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SuperGo-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/purge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.purge" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -77,6 +116,9 @@
       <workItem from="1583839499619" duration="1105000" />
       <workItem from="1583840632171" duration="2628000" />
       <workItem from="1584596014920" duration="1162000" />
+      <workItem from="1584661151727" duration="733000" />
+      <workItem from="1584762592108" duration="5760000" />
+      <workItem from="1584892157595" duration="8772000" />
     </task>
     <servers />
   </component>
@@ -88,48 +130,49 @@
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="403" y="280" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1583814025517" />
-    <state x="273" y="299" width="520" height="283" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583842597173">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="465" y="467" width="766" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584777574963">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="273" y="299" width="520" height="283" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.960@0.0.1707.960" timestamp="1583842597173" />
-    <state x="465" y="467" width="658" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.2493.1413@67.27.2493.1413" timestamp="1583820881734" />
+    <state x="465" y="467" width="766" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.2493.1413@67.27.2493.1413" timestamp="1584777574963" />
     <state x="578" y="87" key="#main" timestamp="1583842158409">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="578" y="87" key="#main/0.0.1707.960@0.0.1707.960" timestamp="1583842158409" />
-    <state width="1354" height="466" key="GridCell.Tab.0.bottom" timestamp="1583826824199">
+    <state width="1806" height="471" key="GridCell.Tab.0.bottom" timestamp="1584875518256">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
-    <state width="1354" height="466" key="GridCell.Tab.0.bottom/67.27.2493.1413@67.27.2493.1413" timestamp="1583826824199" />
-    <state width="1354" height="466" key="GridCell.Tab.0.center" timestamp="1583826824199">
+    <state width="1806" height="471" key="GridCell.Tab.0.bottom/67.27.2493.1413@67.27.2493.1413" timestamp="1584875518256" />
+    <state width="1806" height="471" key="GridCell.Tab.0.center" timestamp="1584875518256">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
-    <state width="1354" height="466" key="GridCell.Tab.0.center/67.27.2493.1413@67.27.2493.1413" timestamp="1583826824199" />
-    <state width="1354" height="466" key="GridCell.Tab.0.left" timestamp="1583826824199">
+    <state width="1806" height="471" key="GridCell.Tab.0.center/67.27.2493.1413@67.27.2493.1413" timestamp="1584875518256" />
+    <state width="1806" height="471" key="GridCell.Tab.0.left" timestamp="1584875518256">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
-    <state width="1354" height="466" key="GridCell.Tab.0.left/67.27.2493.1413@67.27.2493.1413" timestamp="1583826824199" />
-    <state width="1354" height="466" key="GridCell.Tab.0.right" timestamp="1583826824199">
+    <state width="1806" height="471" key="GridCell.Tab.0.left/67.27.2493.1413@67.27.2493.1413" timestamp="1584875518256" />
+    <state width="1806" height="471" key="GridCell.Tab.0.right" timestamp="1584875518256">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
-    <state width="1354" height="466" key="GridCell.Tab.0.right/67.27.2493.1413@67.27.2493.1413" timestamp="1583826824199" />
+    <state width="1806" height="471" key="GridCell.Tab.0.right/67.27.2493.1413@67.27.2493.1413" timestamp="1584875518256" />
     <state x="437" y="188" key="SettingsEditor" timestamp="1583842899139">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="437" y="188" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1583842899139" />
     <state x="369" y="442" key="SettingsEditor/67.27.2493.1413@67.27.2493.1413" timestamp="1583810906096" />
-    <state x="320" y="412" width="489" height="234" key="com.intellij.ide.util.TipDialog" timestamp="1583840650592">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="534" y="634" width="489" height="234" key="com.intellij.ide.util.TipDialog" timestamp="1584892159128">
+      <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="320" y="412" width="489" height="234" key="com.intellij.ide.util.TipDialog/0.0.1707.960@0.0.1707.960" timestamp="1583840650592" />
-    <state x="534" y="634" width="691" height="344" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1583818099187" />
-    <state x="583" y="164" width="724" height="915" key="find.popup" timestamp="1584596300044">
+    <state x="534" y="634" width="691" height="344" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1584892159128" />
+    <state x="583" y="164" width="724" height="915" key="find.popup" timestamp="1584870329365">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="353" y="93" width="808" height="622" key="find.popup/0.0.1707.960@0.0.1707.960" timestamp="1583842774312" />
-    <state x="583" y="164" width="724" height="915" key="find.popup/67.27.2493.1413@67.27.2493.1413" timestamp="1584596300044" />
+    <state x="583" y="164" width="724" height="915" key="find.popup/67.27.2493.1413@67.27.2493.1413" timestamp="1584870329365" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SuperGo_master$purge.coverage" NAME="purge Coverage Results" MODIFIED="1584872815364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SuperGo_master$main.coverage" NAME="main Coverage Results" MODIFIED="1583823476610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
