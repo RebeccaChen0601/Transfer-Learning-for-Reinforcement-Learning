@@ -26,7 +26,7 @@ MAX_REPLACEMENT = 0.4
 ## Number of last states to keep
 HISTORY = 7
 ## Learning rate
-LR = 0.01
+LR = 0.02
 
 ## Number of MCTS simulation
 MCTS_SIM = 200
@@ -54,7 +54,7 @@ TEMPERATURE_MOVE = 5
 ##### TRAINING
 
 ## Number of moves to consider when creating the batch
-MOVES = 2500
+MOVES = 3000
 ## Number of mini-batch before evaluation during training
 BATCH_SIZE = 64
 ## Number of channels of the output feature maps
