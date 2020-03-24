@@ -4,6 +4,7 @@
     <list default="true" id="dea03d60-09e9-4159-ae04-b00a7f3a8d02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +116,7 @@
       <workItem from="1584892157595" duration="8772000" />
       <workItem from="1584886650996" duration="3637000" />
       <workItem from="1584926338572" duration="6652000" />
+      <workItem from="1585011754232" duration="4557000" />
     </task>
     <servers />
   </component>
@@ -156,16 +158,16 @@
     </state>
     <state x="437" y="188" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1583842899139" />
     <state x="369" y="442" key="SettingsEditor/67.27.2493.1413@67.27.2493.1413" timestamp="1583810906096" />
-    <state x="534" y="634" width="489" height="234" key="com.intellij.ide.util.TipDialog" timestamp="1584926389401">
+    <state x="534" y="634" width="489" height="234" key="com.intellij.ide.util.TipDialog" timestamp="1585011759863">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="320" y="412" width="489" height="234" key="com.intellij.ide.util.TipDialog/0.0.1707.960@0.0.1707.960" timestamp="1583840650592" />
-    <state x="534" y="634" width="691" height="344" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1584926389400" />
-    <state x="583" y="164" width="724" height="915" key="find.popup" timestamp="1584870329365">
+    <state x="534" y="634" width="691" height="344" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1585011759863" />
+    <state x="583" y="164" width="724" height="915" key="find.popup" timestamp="1585043953018">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="353" y="93" width="808" height="622" key="find.popup/0.0.1707.960@0.0.1707.960" timestamp="1583842774312" />
-    <state x="583" y="164" width="724" height="915" key="find.popup/67.27.2493.1413@67.27.2493.1413" timestamp="1584870329365" />
+    <state x="583" y="164" width="724" height="915" key="find.popup/67.27.2493.1413@67.27.2493.1413" timestamp="1585043953018" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SuperGo_master$purge.coverage" NAME="purge Coverage Results" MODIFIED="1584872815364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

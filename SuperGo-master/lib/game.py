@@ -20,7 +20,7 @@ class Game:
             self.mcts = MCTS()
         self.player = player
         self.opponent = opponent
-        print("Creating a game: " + str(id))
+        # print("Creating a game: " + str(id))
 
 
     def _create_board(self, color):
