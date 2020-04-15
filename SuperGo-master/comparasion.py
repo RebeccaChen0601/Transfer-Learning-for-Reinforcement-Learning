@@ -12,13 +12,14 @@ from lib.utils import load_player
 
 
 @click.command()
-@click.option("--folder", default=1584177784)
+@click.option("--folderb", default=1584177784)
+@click.option("--folderw", default=1584177784)
 @click.option("--black", default=-1)
 @click.option("--white", default=1)
-def main(folder, black, white):
+def main(folderb, folderw, black, white):
 
-    player_black, checkpoint_black = load_player(str(folder), black)
-    player_white, checkpoint_white = load_player(str(folder), white)
+    player_black, checkpoint_black = load_player(str(folderb), black)
+    player_white, checkpoint_white = load_player(str(folderw), white)
 
     print("Loaded Black player with iteration " + str(checkpoint_black['total_ite']))
     print("Loaded White player with iteration " + str(checkpoint_white['total_ite']))

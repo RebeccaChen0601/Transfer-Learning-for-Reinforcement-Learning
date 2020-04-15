@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dea03d60-09e9-4159-ae04-b00a7f3a8d02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/SelfPlay result 6th gen vs 1st gen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/comparasion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -115,11 +116,12 @@
       <workItem from="1584886650996" duration="3637000" />
       <workItem from="1584926338572" duration="6652000" />
       <workItem from="1585011754232" duration="6203000" />
+      <workItem from="1586968974799" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="280" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583814025517">
