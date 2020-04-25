@@ -9,22 +9,22 @@ Local Mongo DB Server
 
 ## Python Library Required:  
 
-pachi_pi
-numpy
-timeit
-pickle
-pytorch 1.4
-pymongo
+pachi_pi   
+numpy  
+timeit  
+pickle  
+pytorch 1.4  
+pymongo  
 
 
 
 ## Training Configuration:
 
-LR: 0.01
-BoardSize 9*9
-Data Batch Size: 4000 steps
-MiniBatch: 64
-Iteration for one generation: 12*MiniBatch 15*MiniBatch
+LR: 0.01  
+BoardSize 9*9  
+Data Batch Size: 4000 steps  
+MiniBatch: 64  
+Iteration for one generation: 12*MiniBatch 15*MiniBatch  
 
 
 
