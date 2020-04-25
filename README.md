@@ -1,13 +1,13 @@
-#SuperGo For CZ4041  
+# SuperGo For CZ4041  
 
-##Environment:  
+## Environment:  
 
 Ubuntu 18.04  
 Python 3.5  
 CUDA 10.1  
 Local Mongo DB Server  
 
-##Python Library Required:  
+## Python Library Required:  
 
 pachi_pi
 
