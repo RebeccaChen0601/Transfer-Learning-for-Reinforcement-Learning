@@ -47,7 +47,6 @@ class Node:
         w : total action value, given by the value network
         q : mean action value (w / n)
         """
-
         self.p = proba
         self.n = 0
         self.w = 0
